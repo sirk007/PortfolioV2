@@ -4,7 +4,9 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import ProjectsSection from './components/ProjectsSection';
+import DownloadCV from './components/DownloadCV';
 import Footer from './components/Footer';
+
 const App = () => {
   return (
     <>
@@ -13,6 +15,7 @@ const App = () => {
         <Header />
         <Skills />
         <ProjectsSection />
+        <DownloadCV />
         <Footer />
       </div>
     </>
