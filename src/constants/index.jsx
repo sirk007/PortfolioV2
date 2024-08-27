@@ -80,15 +80,17 @@ export const navItems = [
   
 
   export const contactInformation = [
-    { href: "#", text: "pepe@gmail.com" },
-    { href: "#", text: "087-123456" },
-    { href: "#", text: "Co. Street, Street" },
-    { href: "#", text: "Resume" },
+    { href: "#", text: "kristijonas.ch@gmail.com" },
+    { href: "#", text: "087-7149990" },
+    { href: "#", text: "Kildare Town, Co.Kildare" },
   ];
   
+  const linkedInProfileUrl = 'https://www.linkedin.com/in/kris-ch-42446329b/';
+  const githubProfileUrl = 'https://github.com/sirk007';
+  
   export const socialMediaLinks = [
-    { href: "#", text: "GitHub" },
-    { href: "#", text: "LinkedIn" },
+    { href: githubProfileUrl, text: "GitHub" },
+    { href: linkedInProfileUrl, text: "LinkedIn" },
   ];
   
   export const navigationLinks = [

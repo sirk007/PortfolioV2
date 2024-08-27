@@ -1,6 +1,10 @@
 import { contactInformation, socialMediaLinks } from "../constants";
 
 const Footer = () => {
+
+    const linkedInProfileUrl = 'https://www.linkedin.com/in/kris-ch-42446329b/';
+    const githubProfileUrl = 'https://github.com/sirk007';
+
   return (
     <footer className="mt-20 border-t py-10 border-neutral-700">
       <div id="Footer" className="max-w-7xl mx-auto px-4">
