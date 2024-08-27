@@ -85,13 +85,13 @@ export const navItems = [
     { href: "#", text: "Kildare Town, Co.Kildare" },
   ];
   
-  const linkedInProfileUrl = 'https://www.linkedin.com/in/kris-ch-42446329b/';
-  const githubProfileUrl = 'https://github.com/sirk007';
-  
-  export const socialMediaLinks = [
-    { href: githubProfileUrl, text: "GitHub" },
-    { href: linkedInProfileUrl, text: "LinkedIn" },
-  ];
+const linkedInProfileUrl = 'https://www.linkedin.com/in/kris-ch-42446329b/';
+const githubProfileUrl = 'https://github.com/sirk007';
+
+export const socialMediaLinks = [
+  { href: githubProfileUrl, text: "GitHub" },
+  { href: linkedInProfileUrl, text: "LinkedIn" },
+];
   
   export const navigationLinks = [
     { href: "#", text: "Home" },
