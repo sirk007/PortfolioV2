@@ -1,5 +1,5 @@
 {
-  "homepage": "https:sirk007.github.io/PortfolioV2",
+  "homepage": "https://sirk007.github.io/PortfolioV2",
   "name": "portfoliov2",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
