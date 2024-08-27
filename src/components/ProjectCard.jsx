@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, imageUrl, technologies, liveLink, codeLink }) => {
+const ProjectCard = ({ title, description, imageUrl, technologies }) => {
   return (
     <div className="bg-neutral-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
@@ -15,18 +15,6 @@ const ProjectCard = ({ title, description, imageUrl, technologies, liveLink, cod
             </li>
           ))}
         </ul>
-      </div>
-      <div className="mt-6 flex space-x-4">
-        {liveLink && (
-          <a href={liveLink} className="bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-blue-700">
-            Live Demo
-          </a>
-        )}
-        {codeLink && (
-          <a href={codeLink} className="bg-neutral-800 text-neutral-200 px-4 py-2 rounded-md text-sm font-medium hover:bg-neutral-700">
-            View Code
-          </a>
-        )}
       </div>
     </div>
   );
