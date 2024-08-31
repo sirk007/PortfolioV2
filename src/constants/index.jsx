@@ -1,9 +1,13 @@
+//Project 1
 import dataExploration from '../assets/dataExploration.png';
 import cleaningDataSet from '../assets/cleaningDataSet.png';
 import describeData from '../assets/describeData.png';
 import trainingData from '../assets/trainingData.png';
 import linearRegression from '../assets/linearRegression.png';
 import predictionDataSet from '../assets/predictionDataSet.png';
+
+//Project 2
+import poster from '../assets/poster.png';
 
 export const navItems = [
   { label: "Home", href: "Header" },
@@ -216,12 +220,21 @@ export const detailedDescriptionBTCUSD = (
 // Project Array detailedDescriptions
 export const detailedDescriptionDogoHome = (
   <div>
+
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
     <p className="text-white mb-4">
       DogoHome is a full-stack web application that enables users and shelters to manage lost and found pets. 
       The application supports user authentication, profile management, and advanced search functionality. 
       It was built using the MERN stack with MySQL for data persistence.
     </p>
+
+    <div>
+      <img
+          src={poster}
+          alt="poster"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
 
     <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
     <p className="text-white mb-4">
@@ -245,7 +258,7 @@ export const detailedDescriptionDogoHome = (
     <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
     <div>
       <img
-        src="path/to/image1.jpg"
+        src=""
         alt="Visualization 1"
         className="w-full h-auto mb-4 rounded-lg shadow-md"
       />
@@ -259,7 +272,15 @@ export const detailedDescriptionDogoHome = (
 );
 
 export const detailedDescriptionJDBC = (
+  
   <div>
+    <div>
+      <img
+          src={predictionDataSet}
+          alt="predictionDataSet"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
     <p className="text-white mb-4">
     JDBC
