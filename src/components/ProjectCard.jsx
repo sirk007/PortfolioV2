@@ -1,8 +1,11 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, imageUrl, technologies }) => {
+const ProjectCard = ({ title, description, imageUrl, technologies, onClick }) => {
   return (
-    <div className="bg-neutral-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+    <div
+      className="bg-neutral-900 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+      onClick={onClick} // Trigger modal open
+    >
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover rounded-md mb-4" />
       <h3 className="text-xl font-semibold text-white">{title}</h3>
       <p className="text-neutral-400 mt-2">{description}</p>

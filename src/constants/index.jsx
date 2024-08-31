@@ -101,3 +101,260 @@ export const socialMediaLinks = [
     { href: "#", text: "Contact" },
   ];
   
+// Project Array detailedDescriptions
+export const detailedDescriptionBTCUSD = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+      This project involved analyzing historical BTC-USD data to develop a
+      model that predicts future prices.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
+// Project Array detailedDescriptions
+export const detailedDescriptionDogoHome = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+      DogoHome is a full-stack web application that enables users and shelters to manage lost and found pets. 
+      The application supports user authentication, profile management, and advanced search functionality. 
+      It was built using the MERN stack with MySQL for data persistence.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
+export const detailedDescriptionJDBC = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+    JDBC
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
+export const detailedDescriptionHDDDestruction = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+    HDD Destruction
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
+export const detailedDescriptionDataScraping = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+    DataScraping!
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
+export const detailedDescriptionDistributedSystems = (
+  <div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <p className="text-white mb-4">
+    Distributed Systems Assignment
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    <p className="text-white mb-4">
+      The goal was to apply regression analysis to forecast Bitcoin’s daily
+      close price using features like Open, High, Low, and Volume.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
+    <p className="text-white mb-4">
+      The model was trained using Linear Regression, and various metrics such
+      as R-squared and Mean Absolute Error were used to evaluate its
+      performance.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
+    <p className="text-white mb-4">
+      The final model was visualized using Matplotlib to showcase the
+      predictions against actual data.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <div>
+      <img
+        src="path/to/image1.jpg"
+        alt="Visualization 1"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+      <img
+        src="path/to/image2.jpg"
+        alt="Visualization 2"
+        className="w-full h-auto mb-4 rounded-lg shadow-md"
+      />
+    </div>
+  </div>
+);
+
