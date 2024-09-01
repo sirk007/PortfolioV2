@@ -14,8 +14,20 @@ import javaGUI from '../assets/JavaGUI.png';
 import relationalDatabase from '../assets/relationalDatabase.png';
 import javaEventHandling from '../assets/javaEventHandling.png';
 
+// Project 6
+import serverJDBC from '../assets/serverJDBC.png';
+import databaseHSQLDB from '../assets/databaseHSQLDB.png';
+import configureDBConnection from '../assets/configureDBConnection.png';
+import schemaHSQLDB from '../assets/schemaHSQLDB.png';
+import clientSideSerializing from '../assets/clientSideSerializing.png';
+import postmanSerializing from '../assets/postmanSerializing.png';
+import clientSideDeserializing from '../assets/clientSideDeserializing.png';
+import xmlPostmanDecerializing from '../assets/xmlPostmanDecerializing.png';
+import jsonPostmanDeserializing from '../assets/jsonPostmanDeserializing.png';
+import guiComponents from '../assets/guiComponents.png';
+import javaHandling from '../assets/javaHandling.png';
 
-javaEventHandling.png
+
 export const navItems = [
   { label: "Home", href: "Header" },
   { label: "Skills", href: "Skills" },
@@ -119,7 +131,7 @@ export const socialMediaLinks = [
     { href: "#", text: "Contact" },
   ];
   
-// --------------------- Project 1 
+// --------------------- Project 1 ---------------------
 // Project Array detailedDescriptions
 export const detailedDescriptionBTCUSD = (
   <div>
@@ -225,7 +237,7 @@ export const detailedDescriptionBTCUSD = (
   </div>
 );
 
-// --------------------- Project 2
+// --------------------- Project 2 ---------------------
 // Project Array detailedDescriptions
 export const detailedDescriptionDogoHome = (
   <div>
@@ -247,7 +259,7 @@ export const detailedDescriptionDogoHome = (
   </div>
 );
 
-// ------------- Project 3
+// --------------------- Project 3 ---------------------
 export const detailedDescriptionJDBC = (
   
   <div>
@@ -342,6 +354,7 @@ export const detailedDescriptionJDBC = (
   </div>
 );
 
+// --------------------- Project 4 ---------------------
 export const detailedDescriptionHDDDestruction = (
   <div>
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
@@ -383,6 +396,9 @@ export const detailedDescriptionHDDDestruction = (
     </div>
   </div>
 );
+
+// --------------------- Project 5 ---------------------
+
 
 export const detailedDescriptionDataScraping = (
   <div>
@@ -426,45 +442,197 @@ export const detailedDescriptionDataScraping = (
   </div>
 );
 
+// --------------------- Project 6 ---------------------
+
+
 export const detailedDescriptionDistributedSystems = (
   <div>
-    <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
+    <h3 className="text-white text-2xl font-semibold mb-4">System Architecture</h3>
     <p className="text-white mb-4">
-    Distributed Systems Assignment
+      Apache Tomcat/8.5.79 server was used to initiate port 8080 gate and enable HTTP requests and responses to be handled within the java environment, 
+      a new server is created ensuring that the properties is configured correctly ensuring that the location of the Server/Tomcat v8.5 Server at localhost.server is switched, 
+      within the Overview of the server config, the Server Locations allows Tomcat to handle installations to initiate the server 
+      once configured the project can then be added to the Tomcat v8.5 Server at localhost once the instance Synchronizes, it enables the Jersey RESTful CRUD operation support
     </p>
 
-    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
-    <p className="text-white mb-4">
-      The goal was to apply regression analysis to forecast Bitcoin’s daily
-      close price using features like Open, High, Low, and Volume.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
-    <p className="text-white mb-4">
-      The model was trained using Linear Regression, and various metrics such
-      as R-squared and Mean Absolute Error were used to evaluate its
-      performance.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
-    <p className="text-white mb-4">
-      The final model was visualized using Matplotlib to showcase the
-      predictions against actual data.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
     <div>
       <img
-        src="path/to/image1.jpg"
-        alt="Visualization 1"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
-      <img
-        src="path/to/image2.jpg"
-        alt="Visualization 2"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
+          src={serverJDBC}
+          alt="serverJDBC.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
     </div>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Implementation</h3>
+    <p className="text-white mb-4">
+      <strong>Database</strong>
+      HSQLDB is an open-source SQL database implemented in Java, managedDB_v3.xml file contains an ANT script that is used to start/launch the database engine. 
+      Due to the project being a Dynamic Web Project It requires a hsqldb-2.3.4.jar library to be added to the build path 
+      of the project as well as the lib folder within the webapp hierarchy inside of the WEB-INF folder which is not added to the build path since it compiles on run time. 
+      Using the Ant script View in the Java EE perspective enables a drag and drop approach of initiating the managedDB_v3.xml 
+      which then allows access to its functions such as start/stop/manage. 
+    </p>
+    <div>
+      <img
+          src={databaseHSQLDB}
+          alt="databaseHSQLDB.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <p className="text-white mb-4">
+      Configuring the database connection using the username and password through the manage function enables to connect to the MySQL server 
+      that allows the generation of database Schema tables.
+    </p>
+    <div>
+      <img
+          src={configureDBConnection}
+          alt="configureDBConnection.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <p className="text-white mb-4">
+      By creating a car table inside of the HSQLDB Schema allowed me to establish and define a table that can then be mapped 
+      to an object and be handled by the java classes to perform the Jersey RESTful CRUD operations 
+    </p>
+    <div>
+      <img
+          src={schemaHSQLDB}
+          alt="schemaHSQLDB.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Server-Side Implementation</h3>
+    <div className="text-white mb-4">
+      <ol className="list-decimal pl-4">
+        <li>
+          <strong>Car.java</strong>: The purpose of the Car.java class is to represent the model for a car object. Its attributes are mapped to the database table columns so that this object can be then handled by the CarDAO and CarResource Java files to interact with the HSQLDB database. <br />
+          <strong>Functionality</strong>
+          <ul className="list-disc pl-4">
+            <li>Defines attributes and methods to read and modify car objects.</li>
+            <li>Contains constructors to initialize the car objects to handle specified values.</li>
+            <li>Includes getters and setters.</li>
+            <li>Uses JAXB (Java Architecture for XML Binding) annotations @XmlRootElement & @XmlType to enable XML serialization and deserialization.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>CarDAO.java</strong>: The CarDAO.java class serves as a Data Access Object (DAO) responsible for interacting with the HSQLDB database to perform CRUD operations on the car entity. <br />
+          <strong>Functionality</strong>
+          <ul className="list-disc pl-4">
+            <li>Provides methods to interact with the HSQLDB database, including retrieving all cars, adding a new car, updating an existing car, and deleting a car by its ID.</li>
+            <li>Utilizes JDBC (Java Database Connectivity) for database connection establishment and SQL execution.</li>
+            <li>Each function establishes the Class.forName class to load the JDBC driver, utilizes the DriverManager to establish a connection within the functions, and creates a statement variable `stmt` which has the connection passed to it for executing SQL queries. The `stmt` statements are initialized with the SQL query respectively to the function being called. Once the parameters are executed, the statements and connections are closed to ensure that data leaks do not occur.</li>
+          </ul>
+        </li>
+        <li>
+          <strong>CarResource.java</strong>: The CarResource.java class implements the RESTful web services endpoints for managing the car resources and acts as a resource handler for handling the HTTP requests related to the car object. <br />
+          <strong>Functionality</strong>
+          <ul className="list-disc pl-4">
+            <li>Defines the methods annotated with HTTP request methods (@GET, @POST, @PUT, @DELETE) to handle the associated HTTP requests.</li>
+            <li>Uses JAX-RS annotations to specify the path including PathParam and MIME media types for the resources, enabling the client to request specific content types such as JSON or XML.</li>
+            <li>Calls methods from the CarDAO to perform CRUD operations on the car entities.</li>
+            <li>Maps the HTTP requests to specific methods for retrieving all cars, adding new cars, updating an existing car, and deleting a car.</li>
+            <li>JAX-RS handles serializing and deserializing Java objects to and from XML or JSON format automatically. Serialization is achieved when the JAX-RS service returns an object as a response entity; the JAX-RS runtime automatically serializes the Java object into XML or JSON format based on the media type specified in the @Produces annotation. It can be specified using the @Produces(MediaType.APPLICATION_XML) or @Produces(MediaType.APPLICATION_JSON) types, and the Java object will be serialized into JSON or XML format.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Client-Side serializing</h3>
+    <div>
+      <img
+          src={clientSideSerializing}
+          alt="clientSideSerializing.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Postman serializing</h3>
+    <div>
+      <img
+          src={postmanSerializing}
+          alt="postmanSerializing.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <p className="text-white mb-4">
+      During a response request with a body containing XML or JSON data, the JAX-RS runtime automatically deserializes the request body
+      in Java objects based on the media type specified in the @Consumes annotation respective to the CRUD operation, 
+      for example @Consumes(MediaType.APPLICATION_XML) or @Produces(Me.._JSON) types, the JSON data in the request body will be deserialized into a Java Objects.
+    </p>
+    <h3 className="text-white text-2xl font-semibold mb-4">Client-Side deserializing</h3>
+    <div>
+      <img
+          src={clientSideDeserializing}
+          alt="clientSideDeserializing.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Postman deserializing</h3>
+    <p className="text-white mb-4"><strong>XML</strong></p>
+    <div>
+      <img
+          src={xmlPostmanDecerializing}
+          alt="xmlPostmanDecerializing.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <p className="text-white mb-4"><strong>JSON</strong></p>
+    <div>
+      <img
+          src={jsonPostmanDeserializing}
+          alt="jsonPostmanDeserializing.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Client-Side Implementation</h3>
+    <div className="text-white mb-4">
+      <ol className="list-decimal pl-4">
+        <li>
+          <strong>Car.java</strong>: The CarGUI.java initiates a GUI that implements the Jersey RESTful web service endpoints for executing tasks such as returning a list of all cars, creating a car resource, updating a car resource, or deleting a car resource based on its primary key. <br />
+          <strong>GUI Components</strong>
+          <ul className="list-disc pl-4">
+            <li>The GUI imports CarDAO.java and CarResource.java classes to utilize the Jersey RESTful CRUD operations.</li>
+            <li>The GUI contains text fields for user input regarding details such as an ID, make, model, year color, mileage, price and a description.</li>
+            <li>The buttons are declared, and action listeners are attached to the buttons to perform specific actions such as (add, refresh, update, delete) when clicked.</li>
+            <li>A list component JList&lt;Car&gt; is used to display the list of cars being retrieved from the HSQLDB database.</li>
+            <li>Functionality such as refreshCarList() method retrieves all cars from the database and updates the list displayed in the GUI, addCar() method creates a new car resource based on user input, updateCar() method updates an existing car resource, deleteCar() removes a resource from a database.</li>
+  	        <div>
+              <img
+                  src={guiComponents}
+                  alt="guiComponents.png"
+                  className="w-full h-auto mb-4 rounded-lg shadow-md"
+                />
+            </div>
+          </ul>
+        </li>
+        <li>
+          <strong>HTML/JavaScript/CSS</strong>: The implementation of HTML, JavaScript enabled the client to send requests to the server side to utilize the Jersey RESTful CRUD operations.  <br />
+          <strong>HTML (index.html)</strong>
+          <ul className="list-disc pl-4">
+            <li>Contains forms to add, update, delete cars.</li>
+            <li>Displays table to show the list of cars retrieved from the server.</li>
+            <li>Imports script.js for handling the user input and rendering car data dynamically.</li>
+            <li>Imports style.css for styling.</li>
+          </ul>
+          <strong>JavaScript(script.js)</strong>
+          <ul className="list-disc pl-4">
+            <li>Handles form submissions adding, updating, deleting cars.</li>
+            <li>Fetches the list of cars from server and render it in the table.</li>
+            <li>Uses Fetch API for making HTTP requests to the Jersey RESTful Endpoints.</li>
+            <li>Converts form data to JSON before sending requests.</li>
+            <div>
+              <img
+                  src={javaHandling}
+                  alt="javaHandling.png"
+                  className="w-full h-auto mb-4 rounded-lg shadow-md"
+                />
+            </div>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <h3 className="text-white text-2xl font-semibold mb-4">Issues</h3>
+    <p className="text-white mb-4">
+      The xmlPullParser library was initiated correctly from the kxml2-2.3.0 jar within the lib folder, within the GUI attempts were made to parse XML data retrieved from a RESTful API however I encountered issues with the XML parsing process, and as a result I resorted to using the CarDAO class to interact with the RESTful API through the CRUD operations within the GUI application to render the data.
+    </p>
   </div>
 );
 

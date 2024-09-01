@@ -69,7 +69,7 @@ const ProjectsSection = () => {
       title: 'Distributed Systems Assignment 2024',
       description: 'A distributed system project featuring a Java-based web application with a RESTful API, HSQLDB database, and Swing GUI. Implemented CRUD operations with Jersey and integrated server-side and client-side technologies.',
       imageUrl: java,
-      technologies: ['Java 1.8', 'HSQLDB', 'Jersey', 'Tomcat 8.5', 'Swing', 'HTML', 'CSS', 'JavaScript'],
+      technologies: ['Java 1.8', 'HSQLDB', 'Jersey RESTful API', 'Tomcat 8.5', 'Swing GUI', 'HTML', 'CSS', 'JavaScript'],
       detailedDescription: detailedDescriptionDistributedSystems,
     },
   ];
