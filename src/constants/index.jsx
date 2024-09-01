@@ -359,7 +359,7 @@ export const detailedDescriptionHDDDestruction = (
   <div>
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
     <p className="text-white mb-4">
-      <span className="blinking-text">Animation Here! Under Construction</span>
+      <span className="blinking-text">Under Construction</span>
     </p>
   </div>
 );
@@ -369,7 +369,7 @@ export const detailedDescriptionDataScraping = (
   <div>
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
     <p className="text-white mb-4">
-      <span className="blinking-text">Animation Here! Under Construction</span>
+      <span className="blinking-text">Under Construction</span>
     </p>
   </div>
 );
