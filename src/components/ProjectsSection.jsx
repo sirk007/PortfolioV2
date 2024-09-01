@@ -45,7 +45,7 @@ const ProjectsSection = () => {
       detailedDescription: detailedDescriptionDogoHome,
     },
     {
-      title: 'Database JDBC Assignment',
+      title: 'Database JDBC Project',
       description: 'Developed a platform for a veterinary business to perform CRUD operations on database resources, enabling staff to manage owner and dog records through a Java-based GUI.',
       imageUrl: JavaGUI,
       technologies: ['Java', 'JDBC', 'MySQL', 'Swing'],

@@ -9,6 +9,13 @@ import predictionDataSet from '../assets/predictionDataSet.png';
 //Project 2
 import poster from '../assets/poster.png';
 
+//Project 3
+import javaGUI from '../assets/JavaGUI.png';
+import relationalDatabase from '../assets/relationalDatabase.png';
+import javaEventHandling from '../assets/javaEventHandling.png';
+
+
+javaEventHandling.png
 export const navItems = [
   { label: "Home", href: "Header" },
   { label: "Skills", href: "Skills" },
@@ -112,6 +119,7 @@ export const socialMediaLinks = [
     { href: "#", text: "Contact" },
   ];
   
+// --------------------- Project 1 
 // Project Array detailedDescriptions
 export const detailedDescriptionBTCUSD = (
   <div>
@@ -217,6 +225,7 @@ export const detailedDescriptionBTCUSD = (
   </div>
 );
 
+// --------------------- Project 2
 // Project Array detailedDescriptions
 export const detailedDescriptionDogoHome = (
   <div>
@@ -235,89 +244,101 @@ export const detailedDescriptionDogoHome = (
           className="w-full h-auto mb-4 rounded-lg shadow-md"
         />
     </div>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
-    <p className="text-white mb-4">
-      The goal was to apply regression analysis to forecast Bitcoin’s daily
-      close price using features like Open, High, Low, and Volume.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
-    <p className="text-white mb-4">
-      The model was trained using Linear Regression, and various metrics such
-      as R-squared and Mean Absolute Error were used to evaluate its
-      performance.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
-    <p className="text-white mb-4">
-      The final model was visualized using Matplotlib to showcase the
-      predictions against actual data.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
-    <div>
-      <img
-        src=""
-        alt="Visualization 1"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
-      <img
-        src="path/to/image2.jpg"
-        alt="Visualization 2"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
-    </div>
   </div>
 );
 
+// ------------- Project 3
 export const detailedDescriptionJDBC = (
   
   <div>
     <div>
       <img
-          src={predictionDataSet}
-          alt="predictionDataSet"
+          src={javaGUI}
+          alt="javaGUI"
           className="w-full h-auto mb-4 rounded-lg shadow-md"
         />
     </div>
     <h3 className="text-white text-2xl font-semibold mb-4">Introduction</h3>
     <p className="text-white mb-4">
-    JDBC
+      For the JDBC application project I decided to design a platform where a veterinary business could perform CRUD operations (Create, Remove, Update, Delete) queries
+      on resources from a database schema called dbass2 which includes a ‘owner_table’ and a ‘dog_details’ tables. 
+      Using GUI staff can create new users and only add new dog resources when an existing user exists, 
+      ensuring that dogs data is directly connected to a user before it can be added to the database using relational keys to achieve data integrity. 
+      The application enables staff to retrieve all dogs that a user has admitted to the veterinary among other functionality such as printing various data to a CSV file. 
+      The application simplifies tasks, offering staff an overview of all admitted dogs and the ability to generate CSV files. 
+      By digitizing record-keeping and fostering data integrity, it enhances efficiency and decision-making for the veterinary business.
     </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Objective</h3>
+    
     <p className="text-white mb-4">
-      The goal was to apply regression analysis to forecast Bitcoin’s daily
-      close price using features like Open, High, Low, and Volume.
+      The GUI includes a panel for user registration and dog registrations forms once inserted it adds or alters resources to the relevant database. 
+      Both user and a dog have the utility to export various data from a database to a CSV File as shown in the picture above “Export Owner Data” and “Export Dog Data”. 
+      The GUI includes JScrollPane that allows the user and dog tables to become interactive and scrollable alongside of defining the height and width dimensions. 
+      CRUD operations are attached to the JButtons Insert, Delete, Update buttons within both user and dog panels that trigger on user interaction ActionListener's 
+      enable the events to occur.
     </p>
 
-    <h3 className="text-white text-2xl font-semibold mb-4">Methodology</h3>
-    <p className="text-white mb-4">
-      The model was trained using Linear Regression, and various metrics such
-      as R-squared and Mean Absolute Error were used to evaluate its
-      performance.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Visualization</h3>
-    <p className="text-white mb-4">
-      The final model was visualized using Matplotlib to showcase the
-      predictions against actual data.
-    </p>
-
-    <h3 className="text-white text-2xl font-semibold mb-4">Images</h3>
+    <h3 className="text-white text-2xl font-semibold mb-4">Relational Database Management System</h3>
     <div>
       <img
-        src="path/to/image1.jpg"
-        alt="Visualization 1"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
-      <img
-        src="path/to/image2.jpg"
-        alt="Visualization 2"
-        className="w-full h-auto mb-4 rounded-lg shadow-md"
-      />
+          src={relationalDatabase}
+          alt="relationalDatabase"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
     </div>
+
+    <p className="text-white mb-4">
+      I designed a Stored Procedure that can be called when an event is triggered within the Java event handling interaction which retrieves the following attributes of a specific resource: dog name, breed, and age.<br />
+      &quot;// Prepare the SQL call to the stored procedure<br />
+      String storedProcedureCall = &quot;&amp;#123;CALL GetDogsByOwnerID(?)&amp;#125;&quot;;<br />
+      callableStatement = con.prepareCall(storedProcedureCall);&quot;<br />
+      The GUI includes 2 separate tables: owner table and dog table. I created a refreshOwnerTableFromDB &amp; refreshFromDB 
+      within the QueryTableModel.java class, which iterates through the contents of the tables when CRUD operations are performed to update the table, or when the functions are directly called when the connections are established.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Java Event Handling</h3>
+    <div>
+      <img
+          src={javaEventHandling}
+          alt="javaEventHandling.png"
+          className="w-full h-auto mb-4 rounded-lg shadow-md"
+        />
+    </div>
+
+    <p className="text-white mb-4">
+      <strong>Functionality</strong>
+      The event handling functions are designed to respond to user interactions with GUI JButtons. 
+      When a user clicks any of the buttons, it triggers events performing CRUD operations on the associated database tables.
+      <strong>Data Interaction</strong>
+      Data Interaction: User input from JTextFields is captured, assigned to variables, and utilized as conditions in MySQL queries. 
+      This interaction allows for efficient modification of resources within the database schema tables.
+      <strong>Export Functionality</strong>
+      Export Functionality: The export functions within the owner and dog panels utilize the query resultSet. 
+      Upon triggering, these functions execute SQL queries, retrieve the resultSet, and store it in the 'rs' variable. 
+      This resultSet is then passed to the 'writeToFile' class, which efficiently generates a CSV file.
+      <strong>CSV File Strucure</strong>
+      CSV File Structure: The 'writeToFile' class organizes the resultSet content into a structured CSV file, defining columns and rows based on the retrieved data. 
+      This digitized representation ensures clarity and ease of access to the exported data.
+      <strong>Error Handling</strong>
+      To ensure smooth functionality various error handling has been integrated within the functions such as when a staff attempt to create a new owner
+      or dog by inserting a new resource into the database the function checks for if all the fields have been entered, if not print to console a warning alerting the staff.
+    </p>
+
+    <h3 className="text-white text-2xl font-semibold mb-4">Conclusion</h3>
+    <p className="text-white mb-4">
+      The JDBC application offers an intuitive interface facilitating efficient data management and CRUD operations, significantly enhancing the veterinary business workflow.
+      The integration of the type 4 JDBC Driver within the Java project ensured seamless connectivity between the application and the MySQL database schema. 
+      The QueryTableModel.java class played a pivotal role, enabling the population of content within the owner and dog database panels. 
+      The incorporation of CRUD operations within the event handling mechanism facilitated data manipulation within the database. 
+      Post-execution of SQL queries and subsequent data updates in the GUI interface, the QueryTableModel.java functions efficiently refreshed the tables, 
+      ensuring real-time data representation.
+
+      The project's success lies in its ability to streamline the process of admitting new dogs and clients to the veterinary business while 
+      maintaining data accuracy and accessibility through an intuitive and responsive interface.
+
+      Issues: I am developing on Linux due to compatibility issues between mysql servers I was not able to execute the stored procedures 
+      from the database schema due to the fact that there is a difference in versions, I attempted to fix these but came no avail as the 
+      MySQL servers are updated with the compile time of servers and I could not download a custom version of the MySQL as linux does not support the latest MySQL release.
+    </p>
   </div>
 );
 
