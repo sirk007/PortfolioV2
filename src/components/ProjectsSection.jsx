@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ProjectCard from './ProjectCard';
 import Modal from './Modal';
+import './modal.css';
 
 // Data Imports for project Modals
 import { detailedDescriptionBTCUSD } from '../constants/index';
