@@ -79,8 +79,7 @@ const ProjectsSection = () => {
     <section id="ProjectsSection" className="py-16 bg-neutral-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <span className="text-blue-500 text-sm font-medium">Projects</span>
-          <h2 className="text-4xl font-semibold text-white mt-4">My Recent Work</h2>
+          <span className="text-blue-500 text-4xl font-medium">Projects</span>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (

@@ -75,7 +75,7 @@ export const navItems = [
     },
   ];
 
-  export const miscellaneous = [
+    export const miscellaneous = [
     {
       icon: <FontAwesomeIcon icon={faLinux} size="2x" />,
       text: "Linux",
