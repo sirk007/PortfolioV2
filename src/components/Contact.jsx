@@ -12,7 +12,7 @@ const validationSchema = Yup.object({
 
 const Contact = () => {
   return (
-    <section className="py-16 bg-neutral-800">
+    <section id="Contact" className="py-16 bg-neutral-800">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           Contact Me
