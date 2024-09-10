@@ -14,8 +14,8 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <Header />
       <div className="max-w-7xl mx-auto pt-20 px-6">
-        <Header />
         <Skills />
         <ProjectsSection />
         <Contact />
